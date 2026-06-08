@@ -11,7 +11,7 @@
  * Pros: less chatty and backend friendly, clients can disconnect
  * Cons: No realtime updates, more complex to implement, not suitable for all use cases
  */
-const express = require("express");
+import express from "express";
 const app = express();
 
 let message = null;
